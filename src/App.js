@@ -1,12 +1,14 @@
 import React from 'react'
-import Modal form './Modal'
+import Modal from './Modal'
 import Sidebar from './Sidebar'
 import Home from './Home'
 
 function App() {
   return (
     <>
-      <h2>modal</h2>
+      <Home />
+      <Modal />
+      <Sidebar />
     </>
   )
 }
